@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de QR</title>
+    <title>Gerador de QR</title>
     <meta name="description" content="Generador de códigos QR simple y eficiente. Crea códigos QR personalizados a partir de texto o enlaces, con una interfaz intuitiva y fácil de usar. ">
 	<meta property="og:url" content="https://instagram.com/marcosinst">
     <meta property="og:type" content="website">
@@ -12,7 +12,7 @@
     <meta property="og:description" content="Generador de códigos QR simple y eficiente. Crea códigos QR personalizados a partir de texto o enlaces, con una interfaz intuitiva y fácil de usar. ">
     <meta property="og:image" content="https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/ballwictb.github.io/Generador%20de%20QR/Generador%20de%20c%C3%B3digos%20QR%20simple%20y%20eficiente.%20Crea%20c%C3%B3digos%20QR%20personalizados%20a%20partir%20de%20texto%20o%20enlaces%2C%20con%20una%20interfaz%20intuitiva%20y%20f%C3%A1cil%20de%20usar.%20/https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Ff85af7e8-066b-4a1e-97dc-1eb732868fd2.png%3Ftoken%3DlMf8NrgH5eUQXOSjNdvDVkgAiKk8bYcBE2UTlriI7s4%26height%3D346%26width%3D750%26expires%3D33265451098/og.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="ballwictb.github.io">
+    <meta property="twitter:domain" content="instagram.com/marcosinst">
     <meta property="twitter:url" content="https://instagram.com/marcosinst">
     <meta name="twitter:title" content="Generador de QR">
     <meta name="twitter:description" content="Generador de códigos QR simple y eficiente. Crea códigos QR personalizados a partir de texto o enlaces, con una interfaz intuitiva y fácil de usar. ">
@@ -28,7 +28,7 @@
 
 <body>
     <div class="container">
-        <h1><i class="fas fa-qrcode me-2"></i>Generador de QR</h1>
+        <h1><i class="fas fa-qrcode me-2"></i>Gerador de QR</h1>
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3">
@@ -40,24 +40,24 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="sizeInput" class="form-label"><i class="fas fa-expand-arrows-alt me-2"></i>Tamaño
+                    <label for="sizeInput" class="form-label"><i class="fas fa-expand-arrows-alt me-2"></i>Tamanho
                         (px)</label>
                     <input type="range" class="form-range" id="sizeInput" value="200" min="100" max="400"
                         oninput="generateQR()">
                     <output for="sizeInput" id="sizeOutput">200</output>
                 </div>
                 <div class="mb-3">
-                    <label for="fgColor" class="form-label"><i class="fas fa-fill-drip me-2"></i>Color del QR</label>
+                    <label for="fgColor" class="form-label"><i class="fas fa-fill-drip me-2"></i>Cor do QR</label>
                     <input type="color" class="form-control form-control-color w-100" id="fgColor" value="#000000"
                         oninput="generateQR()">
                 </div>
                 <div class="mb-3">
-                    <label for="bgColor" class="form-label"><i class="fas fa-fill me-2"></i>Color de fondo</label>
+                    <label for="bgColor" class="form-label"><i class="fas fa-fill me-2"></i>Cor de fundo</label>
                     <input type="color" class="form-control form-control-color w-100" id="bgColor" value="#ffffff"
                         oninput="generateQR()">
                 </div>
                 <div class="mb-3">
-                    <label for="imageInput" class="form-label"><i class="fas fa-image me-2"></i>Imagen central</label>
+                    <label for="imageInput" class="form-label"><i class="fas fa-image me-2"></i>Imagem central</label>
                     <input type="file" class="form-control" id="imageInput" accept="image/*" onchange="generateQR()">
                 </div>
 
